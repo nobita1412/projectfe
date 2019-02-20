@@ -1,0 +1,425 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box !important;
+	font-family: "Poppins"
+}
+
+.page {
+}
+
+.banner-back {
+	height: 990px;
+	position: absolute;
+	z-index: -1;
+	background: url("images/banner.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*== BANNER CSS ==*/
+.banner {
+	width: 100%;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.logo {
+
+}
+
+/*== MENU CSS ==*/
+.menu {
+	padding-top: 100px;
+}
+
+.menu-main {
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.menu-nav {
+	
+
+}
+.menu-nav ul li {
+	padding: 0 25px;
+	font-size: 20px;
+}
+
+.menu-nav ul li a {
+	padding-left: 0px;
+	color: black;
+}
+
+.btn-banner {
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.btn-banner button {
+	border: 1px solid #1769ff;
+	border-radius: 50px;
+	color: #1769ff;
+	background-color: none !important;
+	padding: 10px 25px;
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+/*== TEXT BANNER ==*/
+.text-banner {
+	padding-left: 50px;
+	max-width: 605px;
+	margin-top: 215px;
+	float: right;
+	margin-right: 10%; 
+}
+
+.text-banner h3 {
+	font-size: 36px;
+	font-weight: lighter;
+	font-family: "Raleway";
+	max-width: 605px;
+	margin-bottom: 33px;
+}
+
+.text-banner h1 {
+	font-size: 48px;
+	max-width: 605px;
+	margin-bottom: 40px;
+}
+
+.text-banner h5 {
+	font-size: 16px;
+	font-family: "Raleway";
+	max-width: 605px;
+	margin-bottom: 45px;
+}
+
+.text-banner button {
+	border-radius: 50px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 25px 40px;
+}
+
+/*== SERVICE CSS ==*/
+.service {
+	margin-top: 805px;
+	padding-top: ;
+	text-align: center;
+	height: 760px;
+	background-color: #fff;
+}
+
+.main-service {
+	padding-top: 145px;
+	text-align: center;
+	align-items: center;
+}
+
+.about {
+	margin-top: 45px;
+}
+
+.about-1 {
+	max-width: 367px;
+	width: 20%;
+	min-height: 315px;
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+	margin: 0 10px;
+	padding: 0 55px;
+}
+
+.about-1:hover {
+	background-color: #1769ff;
+}
+
+.about-1 img {
+	padding: 35px 0;
+}
+
+.about-1 div {
+	width: 20%;
+	height: 1px;
+	text-align: center;
+	margin: 20px auto;
+	background-color: #1769ff;
+}
+
+.about-1 h4 {
+	margin-top: 30px;
+	font-size: 15px;
+	font-family: "Raleway";
+}
+
+/*== PORTFOLIO CSS ==*/
+.portfolio {
+	height: 1288px;
+	text-align: center;
+	align-items: center;
+}
+
+.portfolio-logo {
+	margin-top: 113px;
+}
+
+.portfolio-image {
+	margin-top: 50px;
+}
+
+.p-img {
+	width: 22%;
+	display: inline-block;
+	margin: 18px;
+}
+
+.p-img img {
+
+	width: 100%;
+}
+
+/*== CNTT CSS ==*/
+.cntt {
+	height: 355px;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	line-height: 355px;
+	background-color: #fff;
+}
+
+.cntt-text {
+	width: 40%;
+	display: inline-block;
+	text-align: left;
+	align-items: center;
+	vertical-align: middle;
+	margin-right: 10%;
+}
+
+.cntt-text h1 {
+	font-size: 34px;
+	font-family: "Poppins";
+}
+
+.cntt-text h3 {
+	font-size: 16px;
+	margin-top: 30px;
+	font-family: "Raleway";
+}
+
+.cntt-btn {
+	width: 11%;
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cntt-btn button {
+	background-color: unset !important;
+	color: #1769ff;
+	border-radius: 50px;
+	font-size: 16px;
+	padding: 15px 25px;
+}
+
+/*== INFO CSS ==*/
+.info {
+	height: 874px;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.info h1 {
+	width: 27%;
+	min-width: 525px;
+	margin: 0 auto;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.info h1:first-child {
+	padding-top: 167px;
+}
+
+.avatar {
+	width: 90px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.avatar img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.a-in {
+	margin: 0 auto;
+}
+
+.name {
+	font-size: 17px;
+	padding-top: 20px;
+	margin: 0;
+}
+
+.job {
+	font-size: 15px;
+	padding: 10px;
+	margin: 0;
+	font-family: "Raleway";
+}
+
+.description {
+	font-size: 17px;
+	font-family: "Raleway";
+	width: 50%;
+	min-width: 500px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.pagination {
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	margin-top: 90px !important;
+}
+
+.xxx {
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	height: 24px;
+	line-height: 24px;
+}
+
+.pagination1 {
+	width: 1px;
+	height: 1px;
+	padding: 1px;
+	background-color: #bcbcbc;
+	border-radius: 50%;
+	margin: 6px 7px;
+	display: inline-table;
+	box-sizing: unset !important;
+}
+
+.pagination1:hover {
+	width: 4px;
+	height: 4px;
+	padding: 4px;
+	background-color: #1769ff;
+	border-radius: 50%;
+	margin: 1px 2px;
+	display: inline-table;
+	box-sizing: unset !important;
+	background-clip: content-box;
+	border: 1px solid #1769ff;
+}
+
+.active {
+	width: 4px;
+	height: 4px;
+	padding: 4px;
+	background-color: #1769ff;
+	border-radius: 50%;
+	margin: 1px 2px;
+	display: inline-table;
+	box-sizing: unset !important;
+	background-clip: content-box;
+	border: 1px solid #1769ff;
+}
+
+/*== FOOTER CSS ==*/
+.footer {
+	height: 440px;
+	background-color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.menu-foo {
+	font-size: 18px;
+	font-family: "Poppins";
+	padding-top: 65px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.menu-foo ul li {
+	display: inline-block;
+	padding: 30px;
+}
+
+.menu-foo ul li a {
+	color: black;
+}
+
+.box-search input {
+	padding: 15px 25px;
+	border: none;
+	border-radius: 50px;
+}
+
+.box-search {
+	border: 1px solid #000;
+	border-radius: 50px;
+}
+
+.box-search span i {
+	padding: 15px 25px;
+}
+
+.copyright {
+	margin-bottom: 50px;
+	margin-top: 105px;
+	font-size: 16px;
+	font-family: "Poppins";
+
+}
+
+.contact {
+	
+}
+
+.contact ul {
+}
+
+.contact ul li {
+	display: inline-block;
+	margin: 10px 23px;
+}
+
+.contact ul li button {
+	border-radius: 50px;
+	height: 50px;
+	border: none;
+	font-size: 18px;
+	width: 50px;
+	color: #a7a7a7;
+	background-color: #ebebeb;
+}
+
+.contact ul li button:hover {
+	color: #fff;
+	background-color: #32ccfe;
+}
